@@ -1,0 +1,96 @@
+.card-img {
+    position: relative;
+    width: 387px;
+    height: 190px;
+    opacity: 0.8;
+    z-index: 1;
+    border: 1px solid #1490D7;
+    
+}
+
+.infoContainer {
+    position: absolute;
+    width: 387px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    color: black;
+    z-index: 2;
+
+}
+
+.cardTitulo, .cardSubtitulo {
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+
+}
+
+.cardTitulo {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.cardSubtitulo {
+    font-size: 32px;
+    font-weight: 100;
+}
+
+
+
+.card {
+    margin-left: auto;
+    margin-right: auto;
+    width: 390px;
+    height: 190px;
+    box-sizing: border-box;
+    align-items: center;
+    cursor: pointer;
+    
+    
+}
+.campoCard{
+    
+    
+}
+
+.campoCardAll {
+    margin-top: 53px;
+    display: grid;
+    grid-template-columns: repeat(3,minmax(auto, 387px));
+    justify-content: center;
+    gap: 17px;
+    
+}
+
+.card:hover {
+    background: rgba(20, 144, 215, 0.7);
+
+}
+
+    @media screen and (max-width:1250px) {
+        .campoCardAll {
+            margin-top: 23px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(387px, 500px));
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+    }
+        .campoCard{
+        
+    }
+    @media screen and (max-width:400px) {
+    
+    .campoCardAll {
+            
+            
+    }
+    .campoCard{
+       
+    }
+    
+}
+    }
