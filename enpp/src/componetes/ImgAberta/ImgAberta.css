@@ -1,0 +1,88 @@
+.All {
+    
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1201px;
+    height: 723px;
+    
+}
+.Img {
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%; 
+    
+
+}
+.Imagem{
+    width: 1201px;
+    height: 723px;
+}
+.Rbar{
+    position: absolute;
+    width: 100%;
+    height: 68px;
+    background: rgba(241, 241, 241, 0.75);
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
+    border-color: #283645;
+    margin-top: 654px;
+}
+.Rbar h1 {
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 22px;
+    margin-left: 65px;
+
+    color: #283645;
+}
+.botaoAnterior, .botaoProximo{
+    
+}
+
+.botaoAnterior {
+    position: absolute;
+    display: inline-block;
+    padding: 10px 20px;
+    background: transparent;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transform: scaleX(-1);
+    margin-top: 15px;
+}
+.botaoProximo {
+    position: absolute;
+    display: inline-block;
+    padding: 10px 20px;
+    background: transparent;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-left: 1150px;
+    margin-top: 15px;
+
+}
+.botaoSair {
+    position: absolute;
+    display: inline-block;
+    padding: 10px 20px;
+    background: transparent;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-left: 1140px;
+    margin-top: 20px;
+    
+}
